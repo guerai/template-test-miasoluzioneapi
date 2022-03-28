@@ -7,4 +7,6 @@ startupProbePath: /HCstartupProbe
 mountPath: /mounthPath1
 mountName: mount
 mountClaim: claim
-volumes: mountsDetails:[[mountPath: "/mnt/PrimoPath", mountName:"PrimoMount", pvc:"my-azurefile"],[mountPath: "/mnt/SecondoPath", mountName:"SecondoMount", pvc:"my-azurefile-1"]]
+//Attenzione i nomi dei mount devono esse tutti con caratteri minuscoli e/o intervallati da -
+
+volumes: mountsDetails:[[mountPath: "/mnt/PrimoPath", mountName:"primo-mount", pvc:"my-azurefile"],[mountPath: "/mnt/SecondoPath", mountName:"secondo-mount", pvc:"my-azurefile-1"]]
