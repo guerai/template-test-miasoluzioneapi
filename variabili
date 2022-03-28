@@ -1,9 +1,9 @@
 Nickname: authservice.srv.webapi
-path: /authservice-srv-webapi
+path: /miasoluzioneapi-test/*
 ReplicaSet: 3
 Container_Registry_Base: unitn.icts
-livenessProbePath: /HCTEST
-startupProbePath: /HCstartupProbe
+livenessProbePath: /hc/live
+startupProbePath: /hc/ready
 mountPath: /mounthPath1
 mountName: mount
 mountClaim: claim
