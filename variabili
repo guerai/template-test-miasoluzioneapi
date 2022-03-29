@@ -4,10 +4,7 @@ ReplicaSet: 1
 Container_Registry_Base: unitn.icts
 livenessProbePath: /hc/live
 startupProbePath: /hc/ready
-mountPath: /mounthPath1
-mountName: mount
-mountClaim: claim
+Autoscaler: true
 //Attenzione i nomi dei mount devono esse tutti con caratteri minuscoli e/o intervallati da -
 volumes: mountsDetails:[[mountPath: "/mnt/PrimoPath", mountName:"primo-mount", pvc:"my-azurefile"]]
 
-//volumes: mountsDetails:[[mountPath: "/mnt/PrimoPath", mountName:"primo-mount", pvc:"my-azurefile"],[mountPath: "/mnt/SecondoPath", mountName:"secondo-mount", pvc:"my-azurefile"]]
