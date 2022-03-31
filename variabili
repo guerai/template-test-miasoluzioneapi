@@ -6,5 +6,5 @@ livenessProbePath: /hc/live
 startupProbePath: /hc/ready
 Autoscaler: true
 //Attenzione i nomi dei mount devono esse tutti con caratteri minuscoli e/o intervallati da -
-volumes: mountsDetails:[[mountPath: "/mnt/PrimoPath", mountName:"primo-mount", pvc:"my-azurefile"]]
+volumes: mountsDetails:[[mountPath: "/mnt/PrimoPath", mountName:"primo-mount", pvc:"my-azurefile"],[mountPath: "/mnt/PrimoPath", mountName:"primo-mount", pvc:"my-azurefile-akstestdisk"]]
 
