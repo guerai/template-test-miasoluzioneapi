@@ -1,4 +1,5 @@
 Nickname: authservice.srv.webapi
+#Nella soluzione di rewrite root ci sarà /$2
 path: /miasoluzioneapi-test(/|$)(.*)
 ReplicaSet: 1
 Container_Registry_Base: unitn.icts
